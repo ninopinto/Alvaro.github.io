@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>About</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="Style-Info.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> <!-- cursiva y negrita -->
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> <!-- Lora -->
+
+	<script src="https://fb.me/react-0.13.3.min.js"></script> <!-- React.js -->
+    <script src="https://fb.me/JSXTransformer-0.13.3.js"></script> <!-- React.js -->
+</head>
+<body>
+ <header class="header  tamaño-medio">
+                
+                <a id="logo" href="#">
+                    <span class="name cursive">  About </span>
+                    <span class="descrip cursive tamaño-medio">    </span>
+                </a> 
+            </header>
+            
+        <section id="content" class="text-center">
+        
+<section id="user">
+        
+    </section>
+    <script type="text/jsx">
+        var User = React.createClass({
+            getInitialState : function(){
+                return {
+                    username : "Facultad de Ingeniería",
+                    avatar : "1023936566.jpg",
+                    description : "DUEÑAS MORA WILLIAM LEONARDO"
+                }
+            },
+            changeUser : function(){
+                this.setState({
+                    username : "Facultad de Ingeniería ",
+                    avatar : "1014243935.jpg",
+                    description : "NIÑO PINTO ALVARO"
+                })
+            },
+            render : function(){
+                var image = "./imagper/"+this.state.avatar;
+                return (
+                    <article class="User" onClick={this.changeUser}>
+                        <img src={image} class="User-avatar" width="150"/>
+                        <div class="User-description">
+                            <p class="User-name">{this.state.username}</p>
+                            <p>{this.state.description}</p>
+                        </div>
+                    </article>
+                )
+            }
+        })
+        React.render( <User/>, document.getElementById('user'))
+    </script>
+
+
+    <section id="user2">
+        
+    </section>
+    <script type="text/jsx">
+        var User = React.createClass({
+            getInitialState : function(){
+                return {
+                    username : "Facultad de Ingeniería ",
+                    avatar : "1036656973.jpg",
+                    description : "RUEDA DIAZ CRISTIAN FABIAN "
+                }
+            },
+            changeUser : function(){
+                this.setState({
+                    username : "Facultad de Ingeniería ",
+                    avatar : "1115860948.jpg",
+                    description : "ORTIZ VALDERRAMA EDWARD DANIEL"
+                })
+            },
+            render : function(){
+                var image = "./imagper/"+this.state.avatar;
+                return (
+                    <article class="User" onClick={this.changeUser}>
+                        <img src={image} class="User-avatar" width="125"/>
+                        <div class="User-description">
+                            <p class="User-name">{this.state.username}</p>
+                            <p>{this.state.description}</p>
+                        </div>
+                    </article>
+                )
+            }
+        })
+        React.render( <User/>, document.getElementById('user2'))
+    </script>
+
+    
+	<p>Software desarrollado por:
+				English developers</p>	
+
+	<p>Desarrollado el 02/Noviembre/2016</p>
+
+	<p>Version 1.0</p>
+    <button class="btn cursive tamaño-medio" style="margin-bottom: 30px"><a class="nounderline rojo" href="index.html">Página principal</a></button>
+
+
+
+			
+			<br>
+
+
+</article>
+</section>
+</body>
+</html>

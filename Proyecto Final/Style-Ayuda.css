@@ -1,0 +1,193 @@
+/* 
+    Cristian Fabian Rueda Díaz
+    Inicio del proyecto: 21-Agosto-2015 5:55 P.M
+*/
+
+body{
+  background-image: url(fondo.jpg);
+  color: black;
+  font-family: verdana;
+  font-size: 1em;
+  font-style: italic;
+  line-height: 2em;
+  padding-top: 80px;
+}
+
+h1{
+    font-family: Arial black;
+    font-size: 1.5em;
+    color: black;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.header{
+    background: rgb(157,154,186); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(157,154,186,1) 0%, rgba(112,114,170,1) 10%, rgba(15,0,86,1) 44%, rgba(4,9,63,1) 58%, rgba(0,0,35,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(157,154,186,1) 0%,rgba(112,114,170,1) 10%,rgba(15,0,86,1) 44%,rgba(4,9,63,1) 58%,rgba(0,0,35,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(157,154,186,1) 0%,rgba(112,114,170,1) 10%,rgba(15,0,86,1) 44%,rgba(4,9,63,1) 58%,rgba(0,0,35,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d9aba', endColorstr='#000023',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    text-align: center;
+}
+
+.header a{
+    color: white;
+}
+
+#logo{
+    float: center;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+#logo:hover {
+    color: red;
+    
+}
+
+#logo .name {
+    display: block;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#logo .descrip {
+    display: block;
+    font-weight: 300;
+    font-size: 1em;
+    
+   
+}
+
+a.nounderline:link   
+{   
+ text-decoration:none;
+   
+}
+
+nav {
+    float: right;
+
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    color: red;
+
+    
+}
+#content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: rgb(0,0,0) 10px 10px 15px;
+        
+}
+ 
+#content header,
+#content .content {
+    padding: 40px;
+}
+
+p {
+    margin: 1.5em ;
+}
+ 
+.footer {
+    background: rgb(157,154,186); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(157,154,186,1) 0%, rgba(112,114,170,1) 10%, rgba(15,0,86,1) 44%, rgba(4,9,63,1) 58%, rgba(0,0,35,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(157,154,186,1) 0%,rgba(112,114,170,1) 10%,rgba(15,0,86,1) 44%,rgba(4,9,63,1) 58%,rgba(0,0,35,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(157,154,186,1) 0%,rgba(112,114,170,1) 10%,rgba(15,0,86,1) 44%,rgba(4,9,63,1) 58%,rgba(0,0,35,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d9aba', endColorstr='#000023',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    left: 0px;
+    margin-top: 40px;
+    position: absolute;
+    
+}
+
+.footer p {
+    margin: 0;
+    color: white;
+}
+
+.cursive{
+    font-family: 'Lobster', cursive;
+}
+
+.lora{
+    font-family: 'Lora', serif;
+}
+
+.tamaño-medio{
+    font-size: 20px;
+}
+
+.tamaño-peq{
+    font-size: 10px;
+}
+
+.tamaño-grande{
+    font-size: 30px;
+}
+
+.rojo{
+    color:;
+}
+
+.fuente1{
+    font-family: 'Coiny', cursive;
+}
+
+.anim{
+    font-family: 'Coiny', cursive;
+    background: -webkit-linear-gradient(bottom, red, black);
+    margin: 20px auto;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    border: 5px double white;
+    border-radius: 10px;
+    box-shadow: gray 15px 15px 10px;
+    color: white;
+    text-shadow: black 5px 5px 10px;
+}
+
+.anim:hover{
+    -webkit-transform: rotate(1deg);
+}
+
+img{
+    margin-top: 50px; 
+    border: black solid 3px;
+    border-radius: 20px;
+    box-shadow: gray 5px 5px 10px;
+}
+
+img:hover{
+    -webkit-transform: rotate(1deg);
+}

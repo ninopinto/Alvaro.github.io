@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Log In</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="Style-Login.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> <!-- cursiva y negrita -->
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> <!-- Lora -->
+
+    <script src="https://fb.me/react-0.13.3.min.js"></script> <!-- React.js -->
+    <script src="https://fb.me/JSXTransformer-0.13.3.js"></script> <!-- React.js -->
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1 class="cursive text-center">Log In English for Engineers</h1>
+		</div>
+	</header>
+
+
+
+	<div class="container">
+		<section class="row color1 lora esparriba">
+			<article class="col-xs-12 col-sm-6 col-md-6">
+			<br>
+			<p>To view and enter new words, you must be a registered user of this website, If you want to click this button.</p>
+			<br>
+			<button class="btn cursive tam" style="margin-bottom: 30px"><a class="nounderline rojo" href="index.html">Main Page</a></button>
+
+			<section id="user">
+
+
+        
+    </section> <!-- React.js -->
+    <script type="text/jsx">
+        var User = React.createClass({
+            getInitialState : function(){
+                return {
+                    avatar : "FI.jpg",
+                }
+            },
+            changeUser : function(){
+                this.setState({
+                    avatar : "FI1.png",
+                })
+            },
+            render : function(){
+                var image = "./imagenes/"+this.state.avatar;
+                return (
+                    <article class="User" onClick={this.changeUser}>
+                        <img src={image} class="User-avatar" width="200"/>
+                        <div class="User-description">
+                            <p class="User-name">{this.state.username}</p>
+                            <p>{this.state.description}</p>
+                        </div>
+                    </article>
+                )
+            }
+        })
+        React.render( <User/>, document.getElementById('user'))
+    </script> <!-- React.js -->
+
+			</article>
+			<aside class="col-xs-12 col-sm-6 col-md-6">
+			<p>
+					<form action="">
+					<label for="">First Name: </label>
+						<input id="nombre" type="text" placeholder="Nombre:" size="30">
+					<br>
+						<label for="">Last Name: </label>
+						<input id="nombre" type="text" placeholder="Apellido:" size="30">
+					<br>
+						<label for="">Gender: </label>
+						<input id="genero" type="text" placeholder="Genero:"><br>
+
+						<label for="">Age: </label>
+						<input id="edad" type="text" placeholder="Edad:"><br>
+						<label for="">Email: </label>
+						<input id="email" type="text" placeholder="Email:" size="30">
+						<br>
+						<label for="">Password: </label>
+						<input id="email" type="text" placeholder="Contraseña:" size="30">
+						<br>
+						<button class="btn Lora tam">Log In</button>
+						<br>
+						<br>
+				</form>
+			</p>
+			</aside>
+		</section>
+	</div>
+		
+	<script src="js/Jquery.js"></script>	
+	<script src="js/bootstrap.min.js"></script>	
+</body>
+</html>

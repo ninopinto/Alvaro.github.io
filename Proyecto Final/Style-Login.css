@@ -1,0 +1,75 @@
+body{
+background-image: url();
+}
+
+header{
+	 background: rgb(157,154,186); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(157,154,186,1) 0%, rgba(112,114,170,1) 10%, rgba(15,0,86,1) 44%, rgba(4,9,63,1) 58%, rgba(0,0,35,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(157,154,186,1) 0%,rgba(112,114,170,1) 10%,rgba(15,0,86,1) 44%,rgba(4,9,63,1) 58%,rgba(0,0,35,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(157,154,186,1) 0%,rgba(112,114,170,1) 10%,rgba(15,0,86,1) 44%,rgba(4,9,63,1) 58%,rgba(0,0,35,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d9aba', endColorstr='#000023',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color: #FFFFFF;
+}
+
+footer{
+	 background: rgb(157,154,186); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(157,154,186,1) 0%, rgba(112,114,170,1) 10%, rgba(15,0,86,1) 44%, rgba(4,9,63,1) 58%, rgba(0,0,35,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(157,154,186,1) 0%,rgba(112,114,170,1) 10%,rgba(15,0,86,1) 44%,rgba(4,9,63,1) 58%,rgba(0,0,35,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(157,154,186,1) 0%,rgba(112,114,170,1) 10%,rgba(15,0,86,1) 44%,rgba(4,9,63,1) 58%,rgba(0,0,35,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d9aba', endColorstr='#000023',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color: #FFFFFF;
+}
+
+.color1{
+	background:#FFFFFF ;
+	color: #0C0C0C;
+}
+
+.cursive{
+    font-family: 'Lobster', cursive;
+}
+
+.lora{
+    font-family: 'Lora', serif;
+}
+
+.color2{
+	background-color: #292828;
+	color: white;
+}
+
+label{
+	margin-right: 10px;
+	padding: 10px;
+	width: 100px;
+
+}
+
+input{
+
+	text-align: left;
+	
+}
+
+.tam{
+
+	font-size: 18px;
+
+}
+
+a.nounderline:link   
+{   
+ text-decoration:none;   
+}
+
+.rojo{
+	color: red;
+}
+
+.esparriba{
+	margin-top: 50px;
+}
+
+.tamaño-medio{
+	font-size: 20px;
+}
